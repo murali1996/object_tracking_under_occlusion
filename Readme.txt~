@@ -1,9 +1,0 @@
--Put a video (preferably mp4) in the current directory 
--Open the file 'stiching_katre.m' and edit the name of the video file
--Run 'gmm3.mat' which consists of the trained GMM model of skin pixels. The file 'main.m' does the training of GMM using AIC & BIC techniques.
--Run the file: It reads the video into image frames and applies the algorithm
--The file 'mofify_hypothesis_map.m' does the different steps involved in the algorithm and returns an updated hypothesis 'out_s' in 1x2 cell, being the updated hypothesis of time t-2 and t-1 respectively.
--'isvalid_hypothesis.m' determines if a given hypothesis is valid. Although a code for the same is writen, it's not used when we intend to run 'modify_hypothesis_map.m'
--'estimate_ellipse.m' is used to create a new hypothesis from the set of pixel coordinates given as a NxM binary map.
--'ellipse_plotting.m and draw_boundaries.m' are self explanatory files which draw the ellipses on the input video for a better understanding.
--'sampleOutput.mat' is provided to understand how an output looks like.
